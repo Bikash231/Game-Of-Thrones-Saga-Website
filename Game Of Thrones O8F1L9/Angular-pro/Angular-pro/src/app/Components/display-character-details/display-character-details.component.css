@@ -1,0 +1,58 @@
+.data {
+    border: 2px solid #b88d4b;
+    border-radius: 8px;
+    background-color: #ab7628bc;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Uniqua Antica', serif;
+    color: white;
+}
+
+
+.data p.name {
+    font-weight: bold;
+}
+
+.data p {
+    margin: 8px 0;
+}
+
+.character-values {
+    border: 2px solid #b88d4b;
+    border-radius: 8px;
+    background-color: #ab7628bc;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Uniqua Antica', serif;
+    color: white;
+}
+
+.character-values a {
+    margin: 8px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.character-values a:hover {
+    text-decoration: underline;
+}
+
+.house-values a,
+.books a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #b88d4b;
+    transition: color 0.3s;
+}
+
+.house-values a:hover,
+.books a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+.house-values p,
+.books p {
+    margin: 5px 0;
+}

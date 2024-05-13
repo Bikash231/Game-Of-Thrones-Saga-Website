@@ -1,0 +1,28 @@
+<div class="data">
+    <!-- Displaying the name of the book -->
+    <p>Name: {{book.name}}</p>
+    <!-- Displaying the ISBN code of the book -->
+    <p>ISBN: {{book.isbn}}</p>
+    <!-- Displaying the author(s) of the book -->
+    <p>Author: {{book.authors}}</p>
+    <!-- Displaying the number of pages in the book -->
+    <p>Pages: {{book.numOfPages}}</p>
+    <!-- Displaying the media type of the book -->
+    <p>Media: {{book.mediaType}}</p>
+    <!-- Displaying the release date of the book -->
+    <p>Date of release: {{book.released}}</p>
+</div>
+
+<div class="character">
+    <!-- Header for the list of characters -->
+    <p>Characters:</p>
+</div>
+
+<!-- Iterating over the characters in the book and displaying them -->
+<div class="scroll" *ngFor="let char of book.characters">
+    <!-- Clickable link to navigate to character details -->
+    <a (click)="onCharacterClick(char)">
+        <!-- Displaying the character -->
+        <p>{{char}}</p>
+    </a>
+</div>

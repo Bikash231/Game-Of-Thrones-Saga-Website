@@ -1,0 +1,45 @@
+<div class="data">
+    <!-- Display basic information about the house -->
+    <p class="name">Name: {{house.name}}</p>
+    <p>Region: {{house.region}}</p>
+    <p>Coat of Arms: {{house.coatOfArms}}</p>
+    <p>Word: {{house.word}}</p>
+    <p>Titles: {{house.titles}}</p>
+    <p>Seats: {{house.seats}}</p>
+    <p>Founded: {{house.founded}}</p>
+    <p>Died Out: {{house.diedOut}}</p>
+    <p>Ancestral Weapons: {{house.ancestralWeapons}}</p>
+</div>
+
+<!-- Secondary details section -->
+<div class="secdetails">
+    <!-- Heir information -->
+    <div class="heir">
+        <a (click)="onCharacterClick(house.heir)">
+            <p>Heir: {{house.heir}}</p>
+        </a>
+    </div>
+    
+    <!-- Overlord information -->
+    <div class="overlord">
+        <a (click)="onHouseClick(house.overlord)">
+            <p>Overlord: {{house.overlord}}</p>
+        </a>
+    </div>
+    
+    <!-- Cadet Branches information -->
+    <div class="cadet-branches">
+        <p>Cadet Branches:</p>
+        <div class="cadet-houses" *ngFor="let branch of house.cadetBranches">
+            <a (click)="onHouseClick(branch)">{{branch}}</a>
+        </div>
+    </div>
+    
+    <!-- Sworn Members information -->
+    <div class="sworn-members">
+        <p>Sworn Members:</p>
+        <div class="sworn-members-list" *ngFor="let member of house.swornMembers">
+            <a (click)="onCharacterClick(member)">{{member}}</a>
+        </div>
+    </div>
+</div>

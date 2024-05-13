@@ -1,0 +1,11 @@
+
+<!-- Loop through each book in the 'Books' array -->
+<div class="books" *ngFor="let book of Books">
+    <!-- Display each book -->
+    <div class="book">
+        <!-- Display the name of the book -->
+        <p>{{book.name}}</p>
+         <!-- Button to view details of the book, triggers the 'onDetailsClick' method -->
+        <button (click)="onDetailsClick(book.url)">View Details</button>
+    </div>
+</div>

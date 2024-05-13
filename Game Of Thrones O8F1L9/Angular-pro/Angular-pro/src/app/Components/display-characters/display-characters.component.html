@@ -1,0 +1,12 @@
+<!-- Displaying a list of characters -->
+<div class="characters" *ngFor="let character of characters">
+    <div class="character">
+        <a (click)="onCharacterClick(character)"><p>{{character.name}}</p></a>
+    </div>
+</div>
+<!-- Pagination control for navigating through multiple pages of characters -->
+<p-paginator
+  [rows]="20"
+  [totalRecords]="2000"
+  (onPageChange)="paginate($event)"
+></p-paginator>

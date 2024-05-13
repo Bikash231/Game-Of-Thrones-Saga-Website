@@ -1,0 +1,45 @@
+.data {
+    border: 2px solid #b88d4b;
+    border-radius: 8px;
+    background-color: #ab7628bc;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Uniqua Antica', serif;
+    color: white;
+}
+
+.data p.name {
+    font-weight: bold;
+}
+
+.data p {
+    margin: 8px 0;
+}
+
+.secdetails {
+    border: 2px solid #b88d4b;
+    border-radius: 8px;
+    background-color: #ab7628bc;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Uniqua Antica', serif;
+    color: white;
+
+}
+.secdetails a {
+    margin: 8px 0;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.secdetails a:hover{
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+
+
+.secdetails p {
+    margin: 5px 0;
+}

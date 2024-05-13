@@ -1,0 +1,10 @@
+<div class="houses" *ngFor="let house of houses ">
+    <div class="house">
+        <a (click)="onHouseClick(house.url)"><p>{{house.name}}</p></a>
+    </div>
+</div>
+<p-paginator
+  [rows]="20"
+  [totalRecords]="444"
+  (onPageChange)="paginate($event)"
+></p-paginator>

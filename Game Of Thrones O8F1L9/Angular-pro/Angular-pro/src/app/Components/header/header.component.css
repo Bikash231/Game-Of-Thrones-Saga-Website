@@ -1,0 +1,80 @@
+/* Header styles rgb(120, 193, 120); */
+header {
+    background: #780000;
+    color: #f1b9d3; /* Dark text color for better contrast */
+    text-align: left;
+    padding: 20px; /* Add padding for better spacing */
+    display: flex;
+    border-radius: 8px;
+
+}
+
+h1 {
+    font-family: 'Uniqua Antica', serif;  
+    font-size: 30px;
+    padding: auto; 
+    margin: auto;
+}
+
+/* Header content container */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Logo styles */
+.logo img {
+    height: 80px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(241, 240, 240, 0.508);
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.3); /* Increase size on hover */
+    box-shadow: 0 4px 8px rgb(241, 240, 240);
+}
+
+/* Title styles */
+.title {
+    margin-left: 20px; /* Add spacing between logo and title */
+    margin-right: 100px;
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    justify-content: space-evenly; /* Distribute buttons equally */
+    align-items: center; /* Center align items vertically */
+    padding: 10px; /* Add padding around buttons */
+  }
+
+/* Button styles */
+button {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(172, 94, 94); /* Match the header's background color */
+    color: black; /* White text for better visibility */
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Uniqua Antica', serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth hover transition */
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px rgba(227, 75, 75, 0.508);
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #ff6f61; /* Darker shade for hover effect */
+    box-shadow: 0 4px 8px 0 rgb(241, 240, 240);
+}

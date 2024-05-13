@@ -1,0 +1,55 @@
+.houses {
+  margin-top: 15px;
+}
+
+.house {
+  border: 2px solid #b88d4b;
+  border-radius: 8px;
+  background-color: #ab7628bc;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-family: 'Uniqua Antica', serif;
+  color: white;
+}
+
+.house p {
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.house p:hover {
+  color: #f1c1bd; /* Text color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ui-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ui-paginator .ui-paginator-element {
+  border: 2px solid #b88d4b;
+  border-radius: 8px;
+  background-color: #ab7628bc;
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-family: 'Uniqua Antica', serif;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ui-paginator .ui-paginator-element:hover {
+  background-color: #ff6f61;
+}
+
+.ui-paginator .ui-paginator-pages {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.ui-paginator .ui-paginator-page {
+  margin: 0 5px;
+}

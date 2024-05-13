@@ -1,0 +1,35 @@
+.book {
+    border: 2px solid #b88d4b;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #ab7628bc;
+    margin-top: 15px;
+    font-family: 'Uniqua Antica', serif;
+    padding: 15px;
+    color: white; /* white text color for better visibility*/
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #ac5e5e; /* button background color */
+    color: black; /* black text for better visibility */
+    border: solid transparent;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Uniqua Antica', serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth hover transition */
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* box shadow */
+}
+
+button:hover {
+    background-color: #ff6f61; /* peach shade for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*hover box shadow */
+}
